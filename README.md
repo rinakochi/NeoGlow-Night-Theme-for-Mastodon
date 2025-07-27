@@ -1,57 +1,63 @@
-# 🌌 NeoGlow Night – Custom Mastodon CSS Theme
+# 🎨 Mastodon Custom CSS Theme Pack by Rinakochi
 
-A sleek, modern dark theme for Mastodon with glowing neon accents and soft UI elements. Perfect for night browsing, comfort, and style. ✨
-
----
-
-## 🌈 Features
-
-- 🖤 Dark background for reduced eye strain  
-- 💡 Glow-inspired buttons for boosts, replies, and favorites  
-- 🧊 Cool-toned links and mentions  
-- 🌀 Smooth transitions on UI elements  
-- 🪟 Rounded corners for a modern look  
-- 🖱️ Styled scrollbars to match the aesthetic  
+Welcome to the ultimate CSS theme collection for Mastodon!  
+Curated and crafted by **Rinakochi**, each theme is designed to bring a unique atmosphere to your Mastodon experience — whether you want something neon, cozy, bright, or bold.
 
 ---
 
-## 📥 Installation
+## ✨ Theme List
 
-1. Log in to your Mastodon instance.
-2. Go to: `Preferences > Appearance > Advanced > Custom CSS`.
-3. Paste the contents of `theme.css` into the CSS field.
-4. Save your changes.
-5. Done! Enjoy the new aesthetic.
-
----
-
-## ⚙️ Customization Options
-
-You can tweak the following:
-
-- Primary color scheme  
-- Button glow colors  
-- Font families  
-- Radius for rounded UI  
-- Scrollbar width and color  
+| Name              | Style                    | Description |
+|-------------------|--------------------------|-------------|
+| 🌌 **NeoGlow Night** | Dark + Neon UI            | Glowing buttons, deep dark UI with cyber glow |
+| 🌸 **Soft Sakura**   | Pastel pink, floral light | Inspired by cherry blossoms and spring calmness |
+| 🪷 **Pastel Night**  | Dark + soft pastel        | A cozy, dark mode with creamy pastel accents |
+| ⚡ **Cyberpunk Pulse** | Cyber neon + glitch       | A vibrant futuristic theme with electric colors |
+| ☀️ **Clean Light**    | Minimalist bright         | Crisp and modern white UI with soft blues and greens |
 
 ---
 
-## 🪄 Variants Available (on request)
+## 📥 Installation Instructions
 
-- 💜 Pastel Night  
-- 💚 Cyberpunk Pulse  
-- ☀️ Clean Light  
-- 🌸 Soft Sakura  
+To apply a theme:
+
+1. Go to your Mastodon instance.
+2. Navigate to:  
+   `Preferences > Appearance > Advanced > Custom CSS`
+3. Paste the full CSS code from the chosen theme (it's on the main page).
+4. Save and refresh your browser.
+
+🔁 You can swap themes anytime by replacing the CSS!
+
+---
+
+## 🧰 Customize It!
+
+Want to change fonts, accent colors, or transition speed?  
+Each theme is written in pure CSS and easy to tweak.
+
+Let Rinakochi know if you want:
+- 🌗 Light/Dark mode switching
+- 🌸 Animated falling petals (Soft Sakura)
+- 🖼️ Icon or UI redesigns
+- 🎁 ZIP theme packs
 
 ---
 
 ## 📄 License
 
-MIT License – Free to use, remix, and share. Attribution appreciated!
+MIT License – Free to use, modify, remix, and share.  
+Please credit **Rinakochi** if you redistribute publicly 💖
 
 ---
 
-## 🙌 Credits
+## 🐦 Follow & Support
 
-Created by [Rina](https://hear-me.social/@Rinakochi). Inspired by neon UI design and accessibility-focused themes.
+Follow Rinakochi for updates, blog posts, and more Mastodon magic:  
+📍 [Substack](https://rinakochireports.substack.com/) | [Mastodon](https://hear-me.social/@Rinakochi) | [Discord](https://discord.gg/d79u9vuXHC)
+
+---
+
+
+> Created with 💻 + 🌸 by Rinakochi, 2025
+
