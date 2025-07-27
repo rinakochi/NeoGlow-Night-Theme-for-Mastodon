@@ -1,0 +1,143 @@
+/* Body and global font */
+body {
+    background-color: #fffafc !important;
+    color: #5a3e47 !important;
+    font-family: 'Noto Sans JP', 'Segoe UI', sans-serif;
+}
+
+/* Soft rounded corners */
+* {
+    border-radius: 10px !important;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+    background-color: #fef1f4 !important;
+    border-bottom: 1px solid #f5c2cd;
+}
+
+/* Drawer (side menu) */
+.drawer__inner {
+    background-color: #fff4f7 !important;
+}
+.drawer__tab {
+    color: #b86b83 !important;
+}
+.drawer__tab.active {
+    background-color: #ffe5ec !important;
+    font-weight: bold;
+}
+
+/* Columns */
+.column {
+    background-color: #fff9fa !important;
+    border: 1px solid #f2cbd2 !important;
+}
+
+/* Compose box */
+.compose-form__autosuggest-wrapper {
+    background-color: #fff1f5 !important;
+    border: 1px solid #f7cdd5;
+}
+.compose-form__modifiers {
+    background-color: #ffeef1 !important;
+}
+
+/* Status/toots */
+.status {
+    background-color: #fffdfd !important;
+    border: 1px solid #f4cdd7;
+    padding: 12px;
+    margin-bottom: 12px;
+    transition: background 0.3s ease;
+}
+.status:hover {
+    background-color: #fff0f5;
+}
+
+/* Buttons */
+.button.button--boost {
+    background-color: #f3b6c2 !important;
+    color: #fffafc !important;
+}
+.button.button--reply {
+    background-color: #e9a3b5 !important;
+    color: #fffafc !important;
+}
+.button.button--favourite {
+    background-color: #ffd4da !important;
+    color: #5a3e47 !important;
+}
+.button:hover {
+    filter: brightness(1.1);
+}
+
+/* Mentions and hashtags */
+.mention,
+.hashtag {
+    color: #d46c87 !important;
+}
+.mention:hover,
+.hashtag:hover {
+    background-color: #ffe5eb;
+    padding: 2px 4px;
+}
+
+/* Links */
+a {
+    color: #d66586 !important;
+}
+a:hover {
+    text-decoration: underline;
+    text-shadow: 0 0 2px #fac9d8;
+}
+
+/* Timestamp */
+.status__relative-time {
+    color: #b8849d !important;
+    font-style: italic;
+}
+
+/* Notifications */
+.notification {
+    border-left: 4px solid #fab2c2;
+}
+.notification__message {
+    background-color: #fff3f6 !important;
+    padding: 10px;
+}
+
+/* Profile header */
+.account__header {
+    background-color: #fff3f7 !important;
+    border-bottom: 1px solid #f4c2cf;
+}
+.account__header__fields dt,
+.account__header__fields dd {
+    color: #a86478 !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #e8afc2;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #fffafc;
+}
+
+/* Flash messages */
+.flash-message {
+    background-color: #ffc1d3 !important;
+    color: #5a3e47 !important;
+}
+
+/* Transitions */
+.column,
+.status,
+.compose-form__autosuggest-wrapper {
+    transition: all 0.3s ease-in-out;
+}
