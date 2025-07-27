@@ -1,0 +1,143 @@
+/* Global settings */
+body {
+    background-color: #1a1b22 !important;
+    color: #e8e8f2 !important;
+    font-family: 'Nunito', 'Segoe UI', sans-serif;
+}
+
+/* Universal rounding */
+* {
+    border-radius: 12px !important;
+}
+
+/* Navigation Bar */
+.navigation-bar {
+    background-color: #22232b !important;
+    border-bottom: 1px solid #3d3f4f !important;
+}
+
+/* Drawer Sidebar */
+.drawer__inner {
+    background-color: #20222a !important;
+}
+.drawer__tab {
+    color: #ffd6e0 !important;
+}
+.drawer__tab.active {
+    background-color: #2a2c36 !important;
+}
+
+/* Columns */
+.column {
+    background-color: #2b2e38 !important;
+    border: 1px solid #3e414e !important;
+}
+
+/* Compose box */
+.compose-form__autosuggest-wrapper {
+    background-color: #343845 !important;
+    border: 1px solid #4e5161;
+}
+.compose-form__modifiers {
+    background-color: #292b34 !important;
+}
+
+/* Toots */
+.status {
+    background-color: #313440 !important;
+    border: 1px solid #4a4e5c !important;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: background 0.3s ease;
+}
+.status:hover {
+    background-color: #3b3e4c;
+    box-shadow: 0 0 10px #ffc0cb33;
+}
+
+/* Buttons */
+.button.button--boost {
+    background-color: #b8e0ff !important;
+    color: #1a1b22 !important;
+}
+.button.button--reply {
+    background-color: #dab6fc !important;
+    color: #1a1b22 !important;
+}
+.button.button--favourite {
+    background-color: #ffc0cb !important;
+    color: #1a1b22 !important;
+}
+.button:hover {
+    filter: brightness(1.15);
+}
+
+/* Mentions and hashtags */
+.mention,
+.hashtag {
+    color: #c9f0ff !important;
+}
+.mention:hover,
+.hashtag:hover {
+    text-decoration: underline;
+    background-color: #3a3d4a;
+    padding: 2px 4px;
+}
+
+/* Links */
+a {
+    color: #a7d1f7 !important;
+}
+a:hover {
+    text-shadow: 0 0 4px #c1f2ff;
+}
+
+/* Timestamp glow */
+.status__relative-time {
+    color: #dcd6f7 !important;
+    text-shadow: 0 0 3px #dab6fc;
+}
+
+/* Profile Header */
+.account__header {
+    background-color: #262831 !important;
+    border-bottom: 1px solid #4e4e5e;
+}
+.account__header__fields dt,
+.account__header__fields dd {
+    color: #e0def0 !important;
+}
+
+/* Notifications */
+.notification {
+    border-left: 4px solid #ffc0cb;
+}
+.notification__message {
+    background-color: #353845 !important;
+    padding: 10px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #666a78;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #2b2e38;
+}
+
+/* Flash messages */
+.flash-message {
+    background-color: #ffa3b1 !important;
+    color: white !important;
+}
+
+/* Transitions */
+.column,
+.status,
+.compose-form__autosuggest-wrapper {
+    transition: all 0.3s ease-in-out;
+}
