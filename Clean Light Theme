@@ -1,0 +1,141 @@
+/* Base */
+body {
+    background-color: #f9f9fb !important;
+    color: #2e2e2e !important;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+}
+
+/* Rounded corners */
+* {
+    border-radius: 8px !important;
+}
+
+/* Navigation bar */
+.navigation-bar {
+    background-color: #ffffff !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/* Drawer (left sidebar) */
+.drawer__inner {
+    background-color: #f3f4f6 !important;
+}
+.drawer__tab {
+    color: #555 !important;
+}
+.drawer__tab.active {
+    background-color: #e6e9ef !important;
+    font-weight: 600;
+}
+
+/* Columns */
+.column {
+    background-color: #ffffff !important;
+    border: 1px solid #e5e7eb !important;
+}
+
+/* Compose form */
+.compose-form__autosuggest-wrapper {
+    background-color: #f0f2f5 !important;
+    border: 1px solid #d1d5db;
+}
+.compose-form__modifiers {
+    background-color: #e5e7eb !important;
+}
+
+/* Toot cards */
+.status {
+    background-color: #ffffff !important;
+    border: 1px solid #e0e0e0;
+    padding: 12px;
+    margin-bottom: 10px;
+    transition: background 0.2s ease;
+}
+.status:hover {
+    background-color: #f5f5f7;
+}
+
+/* Buttons */
+.button.button--boost {
+    background-color: #10b981 !important; /* Mint green */
+    color: #ffffff !important;
+}
+.button.button--reply {
+    background-color: #3b82f6 !important; /* Soft blue */
+    color: #ffffff !important;
+}
+.button.button--favourite {
+    background-color: #f59e0b !important; /* Amber */
+    color: #ffffff !important;
+}
+.button:hover {
+    opacity: 0.9;
+}
+
+/* Mentions / hashtags */
+.mention,
+.hashtag {
+    color: #2563eb !important;
+}
+.mention:hover,
+.hashtag:hover {
+    background-color: #eef2ff;
+    padding: 2px 4px;
+}
+
+/* Links */
+a {
+    color: #2563eb !important;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Timestamp styling */
+.status__relative-time {
+    color: #6b7280 !important;
+}
+
+/* Notifications */
+.notification {
+    border-left: 4px solid #3b82f6;
+}
+.notification__message {
+    background-color: #f0f4f8 !important;
+    padding: 10px;
+}
+
+/* Profile header */
+.account__header {
+    background-color: #f8fafc !important;
+    border-bottom: 1px solid #e0e0e0;
+}
+.account__header__fields dt,
+.account__header__fields dd {
+    color: #4b5563 !important;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-track {
+    background: #f9f9fb;
+}
+
+/* Flash messages */
+.flash-message {
+    background-color: #e0f2fe !important;
+    color: #1e40af !important;
+}
+
+/* Transition effects */
+.column,
+.status,
+.compose-form__autosuggest-wrapper {
+    transition: all 0.2s ease-in-out;
+}
